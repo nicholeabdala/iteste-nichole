@@ -1,0 +1,153 @@
+$cabecalho: #fff;
+$rodape: #424242;
+
+$vencido: #acebf1;
+$d0: #f96585;
+$d1: #f98585;
+$d2:  #f9a385;
+$d3: #fdbf8a;
+$total: #acebf1;
+
+body {
+  margin: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+table {
+  border-collapse: collapse;
+  width: 1000px;
+  font-weight: bold;
+  border-bottom-color: #424242;
+  border-bottom-width: thin;
+  text-align: center;
+}
+
+table .conteudo{
+  color: #424242;
+  text-align: center;
+}
+
+tr{
+  border-style: solid;
+  border-left-width: 0; 
+  border-top-width: 0;
+  border-right-width: thin;
+  border-bottom-color: #9c9c9c;
+  border-bottom-width: thin;
+}
+
+td:hover {
+  filter: brightness(125%); 
+  cursor: pointer; 
+}
+
+.tarefa {
+  border-style: solid;
+  border-left-width:  2px; 
+  border-left-color: #3fc3a2;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-color: #9c9c9c;
+  border-bottom-width: thin;
+  color: #424242;
+  padding: 12px 17px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: left;
+  -webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+}
+
+.tarefa:hover {
+    box-shadow: inset 400px 0 0 0 #3fc3a2;
+   
+}
+.cabecalho {
+  color: $cabecalho;
+  background-color: #222220;
+  height: 30px;
+  border-style: solid;
+  border-left-width: 2px; 
+  border-left-color: #222220;
+  border-bottom-width: 0px;
+  border-top-width: 0;
+  border-right-color: #222220;
+  border-right-width: thin;
+}
+
+.cabecalhoTarefa {
+  padding: 12px 17px;
+  text-align: left;
+}
+
+.vencido {
+  background-color: $vencido;
+  width: 20%;
+}
+.d0 {
+  background-color: $d0;
+  width: 7%;
+}
+.d1 {
+  background-color: $d1;
+  width: 7%;
+  text-align: center;
+}
+.d2 {
+  background-color: $d2;
+  width: 7%;
+}
+.d3 {
+  background-color: $d3;
+  width: 7%;
+} 
+.total{
+  width: 14%;
+  background-color: $total;
+}
+
+.conteudoT{
+  color: $cabecalho;
+  background-color: $rodape;
+  height: 30px;
+  padding: 12px 17px;
+  border-style: solid;
+  border-left-width:  2px; 
+  border-left-color: #3fc3a2;
+  border-style: solid;
+  border-left-width: 2px; 
+  border-left-color: $rodape;
+  border-bottom-width: 0px;
+  border-top-width: 0;
+  border-right-color: $rodape;
+  border-right-width: thin;
+}
+
+.conteudoTT{
+  text-align: left;
+  color: $cabecalho;
+  background-color: $rodape;
+  height: 30px;
+  padding: 12px 17px;
+  border-style: solid;
+  border-left-width:  2px; 
+  border-left-color: #3fc3a2;
+  border-style: solid;
+  border-left-width: 2px; 
+  border-left-color: $rodape;
+  border-bottom-width: 0px;
+  border-top-width: 0;
+  border-right-color: $rodape;
+  border-right-width: thin;
+}
